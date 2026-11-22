@@ -37,7 +37,7 @@ void loop() {
 	}
 }
 ```
-Connect one jumper wire to a digital input pin and the other to GND.
+Connect one jumper wire to a digital input pin specified in the code and the other to GND.
 
 Each button press should produce the following output in the serial monitor:
 ```
