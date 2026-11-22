@@ -12,6 +12,10 @@ Chore cards are customizable cards backed with NFC stickers, each associated wit
 
 Each chore card is registered by scanning its NFC sticker and assigning its unique ID to a chore in the system. Subsequent scans send that ID to the API, which records the task's completion timestamp.
 
+## Repo Structure
+- `wand/` — ESP32 firmware, STL files, and wiring instructions.
+- `api/` — web-based progress tracking (python3)
+- `assets/` — images and sound effects.
 
 ## Cost Breakdown
 
@@ -37,11 +41,6 @@ Each chore card is registered by scanning its NFC sticker and assigning its uniq
 ## Stretch Goals
 - [ ] upgrade to a slim 3.7V LiPo battery
 
-## Repo Structure
-- `wand/` — ESP32 firmware, STL files, and wiring instructions.
-- `api/` — web-based progress tracking (python3)
-- `assets/` — Printable chore cards and MP3 sound effects.
-
 ## In the Wild
 - [Chorecast](https://github.com/KenWeTech/Chorecast) - Open-source, self-hosted NFC chore management system (JavaScript, Node.js, MQTT).
 - [TappRFID](https://tapprfid.com/) - NFC-based routine and habit tracking.
@@ -50,3 +49,8 @@ Each chore card is registered by scanning its NFC sticker and assigning its uniq
 - [Done When](https://donewhen.pro/features) - NFC-enabled household chore management.
 - [NFC Smart Chore Tracker](https://github.com/lvlarco/chore-tracker) - Open-source Raspberry Pi and Flask chore tracker.
 - [TaskMate](https://github.com/tempus2016/taskmate) - Home Assistant-based NFC chore and reward system.
+
+# SIDEQUEST
+Before coming up with the design for this chore wand, I came up with a design for the chore *button*. I stumbled upon the idea of a universal chore _wand_ out necessity after considering the expected time and cost per unit.
+
+While in the rabbit hole, however, I did make a home-made push button using ~~3d printed components~~, ~~two springs~~, and copper foil. [Read more about it here.](./BUTTON.md) 
