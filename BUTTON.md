@@ -25,6 +25,7 @@ void setup() {
 	pinMode(BUTTON_PIN, INPUT_PULLUP);
 }
 
+<<<<<<< HEAD
 void loop() {
 	if (digitalRead(BUTTON_PIN) == LOW) {
 		Serial.println("Button pressed!");
@@ -46,3 +47,7 @@ Button pressed!
 
 
 ❤️🧡💛 **HOORAY! YOU MADE A BUTTON!** 💚💙💜
+=======
+❤️🧡💛 **HOORAY! YOU MADE A BUTTON!** 💚💙💜
+>>>>>>> eeaa731bdf8412d66bb328ec116b0b44742d47eb
+
