@@ -1,5 +1,7 @@
 # $\color{red}{\textbf{T}}\color{orange}{\textbf{h}}\color{gold}{\textbf{e}}\ \color{green}{\textbf{M}}\color{blue}{\textbf{a}}\color{purple}{\textbf{g}}\color{red}{\textbf{i}}\color{orange}{\textbf{c}}\ \color{gold}{\textbf{C}}\color{green}{\textbf{h}}\color{blue}{\textbf{o}}\color{purple}{\textbf{r}}\color{red}{\textbf{e}}\ \color{orange}{\textbf{W}}\color{gold}{\textbf{a}}\color{green}{\textbf{n}}\color{blue}{\textbf{d}}$ 🪄 
 
+**Technologies Used:** ESP32, Arduino (C++), NFC, addressable RGB LEDs, Python 3, JSON, HTML, CSS, JavaScript, 3D printing.
+
 **Imaginary Budget**: $20 USD / 0.00033696 BTC
 
 An ESP32-based handheld device that uses NFC tags to record the completion of household tasks. The wand provides audio-visual feedback through a NeoPixel LED ring and an MP3 playback module while synchronizing task completion through a custom API.
@@ -15,7 +17,7 @@ Each chore card is registered by scanning its NFC sticker and assigning its uniq
 ## Repo Structure
 - `wand/` — ESP32 firmware, STL files, and wiring instructions.
 - `api/` — web-based progress tracking (python3)
-- `assets/` — images and sound effects.
+- `cdn/` — images and sound effects.
 
 ## Cost Breakdown
 
@@ -50,7 +52,7 @@ Each chore card is registered by scanning its NFC sticker and assigning its uniq
 - [NFC Smart Chore Tracker](https://github.com/lvlarco/chore-tracker) - Open-source Raspberry Pi and Flask chore tracker.
 - [TaskMate](https://github.com/tempus2016/taskmate) - Home Assistant-based NFC chore and reward system.
 
-# SIDEQUEST
+# SIDE QUEST
 Before coming up with the design for this chore wand, I came up with a design for the chore *button*. I stumbled upon the idea of a universal chore _wand_ out necessity after considering the expected time and cost per unit.
 
 While in the rabbit hole, however, I did make a home-made push button using ~~3d printed components~~, ~~two springs~~, and copper foil. [Read more about it here.](./BUTTON.md) 
