@@ -2,22 +2,26 @@
 
 An ESP32-based handheld device that uses NFC tags to record the completion of household tasks. The wand provides audiovisual feedback through a NeoPixel LED ring and an MP3 playback module while synchronizing task completion through a custom API.
 
-## Parts List
+## Cost Breakdown
+
 **IMAGINARY BUDGET**: $20 USD 
 
 | Component | Unit Price |
 |---|---:|
-| ESP32 | $3.00* |
-| WS2812B NeoPixel ring | $2.00* |
-| PN532 NFC reader | $4.00* |
-| NTAG215 NFC sticker | $0.25* |
+| ESP32 | $1.09 |
+| WS2812B NeoPixel ring | $1.44 |
+| PN532 NFC reader | $1.22 |
+| NTAG215 NFC stickers (37) | $0.17 each|
 | DFPlayer Mini | $2.40 |
 | 8GB microSD card | $4.25 |
 | 8Ω 1W miniature speaker | $0.90 |
-| Momentary push button (homemade) | $0.50 |
-| Miscellaneous electronic components | $1.00* |
-| 3D-printed enclosure | $1.00* |
-| **Total** | 🟢 **$19.30** |
+| Momentary push button (home-made) | $0.50 |
+| Miscellaneous electronic components | $1.00 |
+| 3D-printed enclosure | $0.86 |
+| **Total** | | **$19.95** |
+
+
+__Assumes enough power cables are had to recharge batteries for free.__
  
 ❤️🧡💛 **HOORAY! UNDER BUDGET!** 💚💙💜
 
