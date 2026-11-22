@@ -13,8 +13,6 @@ An ESP32-based handheld device that uses NFC tags to record the completion of ho
 - [ ] Miscellaneous electronic components (wires, resistors, capacitors)
 - [ ] 3D-printed enclosure
 
-*Budget*: $20 USD
-
 ## Cost Breakdown
 | Component | Unit Price |
 |---|---:|
@@ -28,7 +26,9 @@ An ESP32-based handheld device that uses NFC tags to record the completion of ho
 | Momentary push button (homemade) | $0.50 |
 | Miscellaneous electronic components | $1.00* |
 | 3D-printed enclosure | $1.00* |
-| **Total** | **$19.30** |
+| **Total** | $\color{green}{\mathbf{\$19.30}}$ ✅ |
+*Budget*: $20 USD
+*TIP*: Budget is imaginary.
 
 ## In the Wild
 [Chorecast](https://github.com/KenWeTech/Chorecast) - Open-source, self-hosted NFC chore management system (JavaScript, Node.js, MQTT).
