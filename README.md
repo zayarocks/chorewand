@@ -18,8 +18,7 @@ An ESP32-based handheld device that uses NFC tags to record the completion of ho
 | 3D-printed enclosure | $1.00* |
 | **Total** | 🟢 **$19.30** |
 
-*BUDGET*: $20 USD  
-*TIP*: Budget is imaginary.
+**IMAGINARY BUDGET**: $20 USD  
 
 ## Repository Structure
 
