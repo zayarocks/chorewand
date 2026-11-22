@@ -1,10 +1,19 @@
 # Magic Chore Wand
+ 
+$\color{red}{\textbf{I}}\color{orange}{\textbf{M}}\color{gold}{\textbf{A}}\color{green}{\textbf{G}}\color{blue}{\textbf{I}}\color{purple}{\textbf{N}}\color{red}{\textbf{A}}\color{orange}{\textbf{R}}\color{gold}{\textbf{Y}}\ \color{green}{\textbf{B}}\color{blue}{\textbf{U}}\color{purple}{\textbf{D}}\color{red}{\textbf{G}}\color{orange}{\textbf{E}}\color{gold}{\textbf{T}}$: $20 USD
 
 An ESP32-based handheld device that uses NFC tags to record the completion of household tasks. The wand provides audiovisual feedback through a NeoPixel LED ring and an MP3 playback module while synchronizing task completion through a custom API.
 
-## Cost Breakdown
+## The Magic Wand 🪄
+The wand reads a chore card's NFC tag and sends its unique ID to the API. Upon successful completion, the NeoPixel ring lights up and the DFPlayer Mini plays a celebratory sound.
 
-**IMAGINARY BUDGET**: $20 USD 
+## Chore Cards
+Chore cards are customizable cards backed with NFC stickers, each associated with a specific household task. Tapping a card with the wand records task completion and triggers audio-visual feedback.
+
+Each chore card is registered by scanning its NFC sticker and assigning its unique ID to a chore in the system. Subsequent scans send that ID to the API, which records the task's completion timestamp.
+
+
+## Cost Breakdown
 
 | Component | Unit Price |
 |---|---:|
@@ -29,15 +38,6 @@ _Assumes enough power cables are had to recharge batteries for free._
 - `wand/` — ESP32 firmware, STL files, and wiring instructions.
 - `api/` — web-based progress tracking (python3)
 - `assets/` — Printable chore cards and MP3 sound effects.
-
-## The Magic Wand 🪄
-The wand reads a chore card's NFC tag and sends its unique ID to the API. Upon successful completion, the NeoPixel ring lights up and the DFPlayer Mini plays a celebratory sound.
-
-## Chore Cards
-Chore cards are customizable cards backed with NFC stickers, each associated with a specific household task. Tapping a card with the wand records task completion and triggers audio-visual feedback.
-
-Each chore card is registered by scanning its NFC sticker and assigning its unique ID to a chore in the system. Subsequent scans send that ID to the API, which records the task's completion timestamp.
-
 
 ## In the Wild
 - [Chorecast](https://github.com/KenWeTech/Chorecast) - Open-source, self-hosted NFC chore management system (JavaScript, Node.js, MQTT).
