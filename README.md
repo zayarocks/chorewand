@@ -1,5 +1,6 @@
 # $\color{red}{\textbf{T}}\color{orange}{\textbf{h}}\color{gold}{\textbf{e}}\ \color{green}{\textbf{M}}\color{blue}{\textbf{a}}\color{purple}{\textbf{g}}\color{red}{\textbf{i}}\color{orange}{\textbf{c}}\ \color{gold}{\textbf{C}}\color{green}{\textbf{h}}\color{blue}{\textbf{o}}\color{purple}{\textbf{r}}\color{red}{\textbf{e}}\ \color{orange}{\textbf{W}}\color{gold}{\textbf{a}}\color{green}{\textbf{n}}\color{blue}{\textbf{d}}$ 🪄 
-$\color{red}{\textbf{I}}\color{orange}{\textbf{M}}\color{gold}{\textbf{A}}\color{green}{\textbf{G}}\color{blue}{\textbf{I}}\color{purple}{\textbf{N}}\color{red}{\textbf{A}}\color{orange}{\textbf{R}}\color{gold}{\textbf{Y}}\ \color{green}{\textbf{B}}\color{blue}{\textbf{U}}\color{purple}{\textbf{D}}\color{red}{\textbf{G}}\color{orange}{\textbf{E}}\color{gold}{\textbf{T}}$: $20 USD
+
+**Imaginary Budget**: $20 USD / 0.00033696 BTC
 
 An ESP32-based handheld device that uses NFC tags to record the completion of household tasks. The wand provides audiovisual feedback through a NeoPixel LED ring and an MP3 playback module while synchronizing task completion through a custom API.
 
