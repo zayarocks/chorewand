@@ -27,7 +27,6 @@ Each chore card is registered by scanning its NFC sticker and assigning its uniq
 | Momentary push button (home-made) | $0.50 |
 | 3D-printed enclosure | $0.86 |
 | Miscellaneous electronic components | < $1.00 |
-
 | **Total** | | **$19.95** |
 
 *Costs reflect individual component prices rather than multipack purchase prices. The prototype is powered by a USB power bank.*
