@@ -1,5 +1,5 @@
 # Magic Chore Wand
-An ESP32-based handheld device that uses NFC tags to record the completion of household tasks. The wand provides audiovisual feedback through a NeoPixel LED ring and an MP3 playback module while synchronizing task completion with a web-based chore tracker.
+An ESP32-based handheld device that uses NFC tags to record the completion of household tasks. The wand provides audiovisual feedback through a NeoPixel LED ring and an MP3 playback module while synchronizing task completion with a web-based interface.
 
 ## Parts List
 - [ ] ESP32
