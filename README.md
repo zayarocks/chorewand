@@ -30,8 +30,13 @@ An ESP32-based handheld device that uses NFC tags to record the completion of ho
 *Budget*: $20 USD
 *TIP*: Budget is imaginary.
 
+## Repository Structure
+``wand/`` — ESP32 firmware, wiring instructions, and 3D-printable enclosure.
+``app/`` — Chore tracker, web interface, and API.
+``assets/`` — Printable chore cards and MP3 sound effects.
+
 ## In the Wild
-[Chorecast](https://github.com/KenWeTech/Chorecast) - Open-source, self-hosted NFC chore management system (JavaScript, Node.js, MQTT).
+- [Chorecast](https://github.com/KenWeTech/Chorecast) - Open-source, self-hosted NFC chore management system (JavaScript, Node.js, MQTT).
 - [TappRFID](https://tapprfid.com/) - NFC-based routine and habit tracking.
 - [TagTrack](https://tag-track.app/) - Gamified NFC and QR-based habit tracking.
 - [Ritlum](https://ritlum.com/app/) - NFC habit tracking with a physical progress display.
