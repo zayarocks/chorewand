@@ -2,10 +2,10 @@
 
 **Imaginary Budget**: $20 USD / 0.00033696 BTC
 
-An ESP32-based handheld device that uses NFC tags to record the completion of household tasks. The wand provides audiovisual feedback through a NeoPixel LED ring and an MP3 playback module while synchronizing task completion through a custom API.
+An ESP32-based handheld device that uses NFC tags to record the completion of household tasks. The wand provides audio-visual feedback through a NeoPixel LED ring and an MP3 playback module while synchronizing task completion through a custom API.
 
 ## The Magic Wand 🪄
-The wand reads a chore card's NFC tag and sends its unique ID to the API. Upon successful completion, the NeoPixel ring lights up and the DFPlayer Mini plays a celebratory sound.
+The wand features a custom 3D-printed enclosure designed to house the electronics and NeoPixel ring. It reads a chore card's NFC tag and sends its unique ID to the API. Upon successful completion, the NeoPixel ring lights up and the DFPlayer Mini plays a celebratory sound.
 
 ## Chore Cards
 Chore cards are customizable cards backed with NFC stickers, each associated with a specific household task. Tapping a card with the wand records task completion and triggers audio-visual feedback.
@@ -30,9 +30,13 @@ Each chore card is registered by scanning its NFC sticker and assigning its uniq
 
 | **Total** | | **$19.95** |
 
-_Assumes enough power cables are had to recharge batteries for free._
+*Costs reflect individual component prices rather than multipack purchase prices. The prototype is powered by a USB power bank.*
+*Money for additional power options can be freed by eliminating some of the 37 alloted NFC stickers.*
  
 ❤️🧡💛 **HOORAY! UNDER BUDGET!** 💚💙💜
+
+## Stretch Goals
+- [ ] upgrade to a slim 3.7V LiPo battery
 
 ## Repo Structure
 - `wand/` — ESP32 firmware, STL files, and wiring instructions.
