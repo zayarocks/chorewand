@@ -45,9 +45,4 @@ Each button press should produce the following output in the serial monitor:
 Button pressed!
 ```
 
-
 ❤️🧡💛 **HOORAY! YOU MADE A BUTTON!** 💚💙💜
-=======
-❤️🧡💛 **HOORAY! YOU MADE A BUTTON!** 💚💙💜
->>>>>>> eeaa731bdf8412d66bb328ec116b0b44742d47eb
-
