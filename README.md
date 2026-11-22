@@ -21,7 +21,7 @@ An ESP32-based handheld device that uses NFC tags to record the completion of ho
 | **Total** | | **$19.95** |
 
 
-__Assumes enough power cables are had to recharge batteries for free.__
+_Assumes enough power cables are had to recharge batteries for free._
  
 ❤️🧡💛 **HOORAY! UNDER BUDGET!** 💚💙💜
 
