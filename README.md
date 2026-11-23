@@ -17,7 +17,7 @@ Each chore card is registered by scanning its NFC sticker and assigning its uniq
 ## Repo Structure
 - `wand/` — ESP32 firmware, STL files, and wiring instructions.
 - `api/` — web-based progress tracking (python3)
-- `cdn/` — images and sound effects.
+- `assets/` — images and sound effects.
 
 ## Cost Breakdown
 
