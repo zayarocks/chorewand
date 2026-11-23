@@ -52,7 +52,7 @@ Each chore card is registered by scanning its NFC sticker and assigning its uniq
 - [NFC Smart Chore Tracker](https://github.com/lvlarco/chore-tracker) - Open-source Raspberry Pi and Flask chore tracker.
 - [TaskMate](https://github.com/tempus2016/taskmate) - Home Assistant-based NFC chore and reward system.
 
-# SIDE QUEST
+# Side Quest
 Before coming up with the design for this chore wand, I came up with a design for the chore *button*. I stumbled upon the idea of a universal chore _wand_ out necessity after considering the expected time and cost per unit.
 
 While in the rabbit hole, however, I did make a home-made push button using ~~3d printed components~~, ~~two springs~~, and copper foil. [Read more about it here.](./BUTTON.md) 
